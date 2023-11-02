@@ -36,7 +36,7 @@ class CardTennis extends HTMLElement {
     }
     getStyles(){
         return `
-            <styles>
+            <style>
             :host{
                 --primary:#fd513b;
                 --secondary:#73d295;
@@ -44,6 +44,10 @@ class CardTennis extends HTMLElement {
                 --gray-dark:#E1DFDF;
                 --letter:#fcfccf;
                 --font:"Source Sans Pro", "Arial", sans-serif;
+                
+                 
+            }
+            article{
                 display:flex;
                 flex-direction:column;
                 width:300px;
@@ -51,7 +55,6 @@ class CardTennis extends HTMLElement {
                   overflow:hidden;
                 font-family: var(--font);
                   box-shadow: 2px 4px 10px var(--primary);
-                 
             }
             .card_image{
                 height:200px;
@@ -110,7 +113,7 @@ class CardTennis extends HTMLElement {
                 width:600px;
               }
               .card_image{
-                  height:300px;
+                  height:auto;
                   width:300px;
                   position: relative;
                   background-color: var(--primary);
@@ -130,7 +133,7 @@ class CardTennis extends HTMLElement {
                    justify-content:space-around;
                  }
             }
-            </styles>
+            </style>
         `;
     }
     render(){
@@ -140,3 +143,4 @@ class CardTennis extends HTMLElement {
         this.render();
     }
 }
+customElements.define('card-tennis' , CardTennis); 
