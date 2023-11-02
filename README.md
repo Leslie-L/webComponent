@@ -1,6 +1,3 @@
-# Web Components
-Learning about web components work.
-
 
 # Web Component: CardTennis
 
@@ -34,7 +31,7 @@ Luego, puedes usar la etiqueta HTML personalizada card-tennis en tu HTML para cr
 ></card-tennis>
 ```
 
-##Atributos
+## Atributos
 El componente CardTennis acepta los siguientes atributos:
 
 id (ID del producto)
@@ -46,7 +43,7 @@ paragraph (Descripción del producto)
 price (Precio del producto)
 Puedes personalizar y ajustar estos atributos para adaptar la tarjeta a tu contexto específico.
 
-##Estilos
+## Estilos
 El componente utiliza estilos CSS internos para dar formato a la tarjeta. Estos estilos definen colores, tamaños y diseño. Puedes modificar estos estilos personalizando las variables CSS proporcionadas o ajustando directamente las propiedades CSS en la sección de estilos del componente.
 
 Variables CSS Disponibles
@@ -57,5 +54,5 @@ Variables CSS Disponibles
 --letter
 --font
 
-##Contribución
+## Contribución
 Siéntete libre de contribuir, realizar sugerencias o mejoras a este componente. ¡Tu colaboración es bienvenida!
