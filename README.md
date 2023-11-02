@@ -20,7 +20,7 @@ Para usar el componente `CardTennis`, sigue estos pasos:
 
 ```html
 <script src="ruta/al/componente/card-tennis.js"></script>
-
+```
 Luego, puedes usar la etiqueta HTML personalizada card-tennis en tu HTML para crear una tarjeta personalizada. A continuación, se muestra un ejemplo de cómo utilizarlo:
 ```html
 <card-tennis
@@ -32,7 +32,7 @@ Luego, puedes usar la etiqueta HTML personalizada card-tennis en tu HTML para cr
   paragraph="Estos zapatos de tenis son perfectos para tu próximo partido."
   price="99.99"
 ></card-tennis>
-
+```
 
 ##Atributos
 El componente CardTennis acepta los siguientes atributos:
